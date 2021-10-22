@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+   
+    <h1>F1 Database</h1>
+    <div class="tableContainer">
+        <form action='' method='GET'>
+            <label for="year">Year:</label>
+            <input type="text" id="year"></input>
+            <br>
+            <br>
+            <label for="round">Round:</label>
+            <input type="text" id="round"></input>
+            <br>
+            <br>
+            <label for="drivers"># of Drivers:</label>
+            <input type="text" id="drivers"></input>
+            <br>
+            <br>
+            <button type="submit" id="btn">Enter</button>
+            <button type="submit" id="btnClear">Clear</button>
+        </form>
+    </div>
+    <br>
+    <br>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Season</th>
+                <th>Round</th>
+                <th>Race Name</th>
+                <th>Date</th>
+                <th>Circuit ID</th>
+                <th>Result</th>
+                <th>Car</th>
+              </tr>
+        </thead>
+        <tbody id="body">
+
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

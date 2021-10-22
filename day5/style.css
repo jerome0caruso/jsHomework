@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+body {
+  font-family: 'Faster One', cursive;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .container {
+      margin: 0 auto;
+      text-align: center;
+  }
+  label {
+    font-size: 24px;
+  }
+
+  .tableContainer {
+    display: flex;
+    justify-content: center;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button{
+    width: 100px;
+    padding: 10px 30px 10px 22px;
+    border: 2px solid;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid yellow;
+  }
+  button:hover{
+    background-color: rgb(184, 184, 184);
+  }
+
+  h1{
+      background-color: rgb(255, 45, 45);
+      font-size: 80px;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
